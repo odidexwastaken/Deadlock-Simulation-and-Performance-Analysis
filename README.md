@@ -31,12 +31,12 @@ Sistemde döngü (Cycle) oluştuğunda DFS ile tespit eder ve bir kurban seçer:
 
 ```bash
  Deadlock-Simulation
- ┣  req
- ┃ ┣  scenarios       # Test senaryoları (JSON formatında)
+ ┣  req/
+ ┃ ┣  scenarios/      # Test senaryoları (JSON formatında)
  ┃ ┗  options.json    # Simülasyon ayar dosyası
- ┣  scripts
- ┃ ┗  algorithms      # Algoritma modülleri (Banker, RandomVictim vb.)
- ┣  project.py        # Simülasyon Çekirdeği (Kernel)
- ┣  graphic.py        # Matplotlib grafik çizim modülü
- ┣  index.py          # Ana başlatıcı (Main Launcher)
- ┗  README.md         # Proje dokümantasyonu
+ ┣  scripts/
+ ┃ ┣  algorithms/     # algoritma modülleri
+ ┣ ┣  project.py      # simülasyon çekirdeği
+ ┣ ┗  graphic.py      # grafik çizim modülü
+ ┣  index.py          # ana başlatıcı
+ ┗  README.txt        # proje dokümantasyonu
