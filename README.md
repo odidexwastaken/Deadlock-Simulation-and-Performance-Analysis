@@ -36,7 +36,9 @@ Sistemde döngü (Cycle) oluştuğunda DFS ile tespit eder ve bir kurban seçer:
  ┃ ┗  options.json    # Simülasyon ayar dosyası
  ┣  scripts/
  ┃ ┣  algorithms/     # algoritma modülleri
- ┣ ┣  project.py      # simülasyon çekirdeği
- ┣ ┗  graphic.py      # grafik çizim modülü
+ ┣ ┣  com_func.py     # ortak fonksiyon modülü
+ ┣ ┣  graphic.py      # grafik çizim modülü
+ ┣ ┣  options.py      # ayar modülü
+ ┣ ┗  project.py      # simülasyon çekirdeği
  ┣  index.py          # ana başlatıcı
  ┗  README.txt        # proje dokümantasyonu
